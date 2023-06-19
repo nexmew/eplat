@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/6e582092-075c-4178-b9dd-41b63b048818/resourceGroups/ebaykiller/providers/Microsoft.Web/sites/ebaykiller",
+    "appService.deploySubpath": "."
+}
