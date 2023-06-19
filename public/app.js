@@ -8,8 +8,8 @@ var indexRouter = require('../routes/index');
 var usersRouter = require('../routes/users');
 
 var app = express();
-app.get('/index', function(req, res) {
-  res.sendFile('public/index.html'), {root: __dirname  };
+app.get('/', function(req, res) {
+  res.sendFile(__dirname + '/index.html');
 });
 
 // view engine setup
