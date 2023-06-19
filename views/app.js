@@ -8,9 +8,9 @@ var indexRouter = require('../routes/index');
 var usersRouter = require('../routes/users');
 
 var app = express();
-app.get('/', function(req, res) {
-  res.sendFile('./index.html');
-});
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
