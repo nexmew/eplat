@@ -9,7 +9,7 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 app.get('/', function(req, res) {
-  res.sendFile(views + 'index.html');
+  res.sendFile(myExpressApp + 'index.html');
 });
 
 // view engine setup
