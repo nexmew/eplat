@@ -9,7 +9,7 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('i luv corie')
 })
 
 // view engine setup
