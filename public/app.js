@@ -4,12 +4,12 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var indexRouter = require('../routes/index');
+var usersRouter = require('../routes/users');
 
 var app = express();
 app.get('/', function(req, res) {
-  res.sendFile('index.html', { root: __dirname });
+  res.sendFile('./index.html');
 });
 
 // view engine setup
